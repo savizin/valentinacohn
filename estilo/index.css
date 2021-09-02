@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "fuente1";
+    src: url(../fuentes/alstoria.ttf);
+}
+
+@font-face {
+    font-family: "fuente2";
+    src: url(../fuentes/sfprodisplayregular.ttf);
+}
+
+html {
+    font-size: 62.5%; /* 1rem=10px */
+}
+
+body {
+    background-color: #ffffff;
+}
+
+header {
+    background-image: url(../imagenes/fondoinicio.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+/*barra de navegación*/
+.titulo {
+    font-family: "fuente1";
+    font-size: 4rem;
+    color: #ffffff;
+    margin: 0.5rem;
+}
+.navbar {
+    padding: 0.5rem 1.5rem;
+    margin: 0.1rem 2rem;
+}
+.navbar-nav {
+    padding-left: 22rem;
+}
+.bg-light {
+    background-color: transparent!important;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    font-size: 2.2rem;
+    color: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 2.2rem;
+    color: #ffffff;
+    transition: 0.3s;
+}
+.active:after {
+    position: absolute;
+    top: 5.8rem;
+    left: 53.8rem;
+    content: '';
+    width: 2.5rem;
+    border-bottom: solid 0.8rem #ffffff;
+    border-radius: 7rem;
+    transition: left 250ms ease-in-out, right 250ms ease-in-out;
+    opacity: 1;
+}  
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+.nav-item {
+    margin: 0rem 1rem;
+}
+
+/*barra de búqueda de la barra de navegación*/
+.barrabusqueda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 4rem;
+    background-color: #deecf3;
+    border-radius: 3rem;
+    padding: 2rem;
+    margin: 2rem;
+}
+.barrabusqueda img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0.2rem;
+}
+.borde {
+    border-left: #f8339e solid 0.1rem;
+    margin-left: 1rem;
+}
+input {
+    width: 14rem;
+    font-family: "fuente2";
+    font-size: 1.5rem;
+    line-height: none;
+    color: #0f0f0f;
+    background-color: transparent!important;
+    outline: none;
+    padding: 0.3rem;
+    margin-left: 0.3rem;
+} 
+::placeholder {
+    font-family: "fuente2";
+    font-size: 1.5rem;
+    color: #0f0f0f;
+    padding: 0.5rem;
+}
+.buscador {
+    height: 2.5rem;
+    color: #0f0f0f;
+    background-color: transparent;
+    border: transparent;
+    border-radius: none;
+}
+
+/*main*/
+main {
+    display: flex;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 70rem;
+    margin-top: 8rem;
+    margin-left: 5rem;
+}
+.subtitulo {
+    font-family: "fuente1";
+    font-size: 9rem;
+    color: #ffffff;
+}
+.aclaracion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "fuente2";
+    font-size: 2rem;
+    color:#0f0f0f;
+    width: 20rem;
+    height: 3rem;
+    background-color: #ffffff;
+    border-radius: 3rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.imgmain {
+    width: 60rem;
+    height: 55rem;
+    margin-left: 12rem;
+}
+
+/*seccion*/
+section {
+    padding: 3rem 0rem;
+    margin: 2rem 0rem;
+}
+.contenedor1 {
+    display: flex;
+    align-items: center;
+    padding: 4rem 9rem 12rem 3rem;
+}
+.contenedor1 img {
+    width: 58rem;
+    height: 58rem;
+    margin: 0rem 3rem 2rem 4rem;
+}
+.contenedor1__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 6rem;
+}
+.contenedor1__titulo {
+    font-family: "fuente1";
+    font-size: 10rem;
+    color: #057bfa;
+    text-shadow: 0.1rem 0.4rem 0.2rem #9e9e9e;
+}
+.contenedor1__desc1 {
+    font-family: "fuente2";
+    font-size: 2.5rem;
+    color: #0f0f0f;
+}
+.contenedor1__desc2 {
+    font-family: "fuente2";
+    font-size: 2rem;
+    color: #0f0f0f;
+}
+.contenedor2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0rem 4rem;
+}
+.contenedor2 img {
+    width: 8.5rem;
+    height: 8.5rem;
+    margin: 0rem 1.7rem 0rem 0.5rem;
+}
+.contenedor2__titulo {
+    font-family: "fuente1";
+    font-size: 7rem;
+    color: #8f00ff;
+}
+.contenedor3 {
+    display: flex;
+    flex-direction: column;
+    font-family: "fuente2";
+    color: #ffffff;
+    width: 110rem;
+    height: 12rem;
+    background-image: url(../imagenes/gradientefrase.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem 7rem;
+    box-shadow: 0.5rem 0.4rem 1rem #9e9e9e;
+    -moz-box-shadow: 0.5rem 0.4rem 1rem #9e9e9e;
+    -webkit-box-shadow: 0.5rem 0.4rem 1rem #9e9e9e;
+    padding: 1rem;
+    margin: 0rem 12rem;
+}
+section img {
+    width: 128rem;
+    height: 50rem;
+    margin: 4rem 2rem;
+}
+.contenedor3__frase {
+    color: #ffffff;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0rem 28rem;
+}
+.contenedor3__autor {
+    color: #ffffff;
+    font-size: 2rem;
+    text-align: end;
+    margin: -2rem 22rem;
+}
+
+/*botones*/
+.botones {
+    display: flex;
+    margin: 1rem 0rem;
+}
+a {
+    font-family: "fuente2";
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover {
+    font-size: 1.8rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16rem;
+    height: 4.5rem;
+    border-radius: 3rem;
+    background-color: #ff8259;
+    margin-left: 0.5rem;
+    transition: 0.3s;
+}
+.boton:hover {
+    width: 18rem;
+}
+.triangulo {
+    border-style: solid;
+    border-radius: 3rem;
+    border-width: 0.7rem;
+    width: 0;
+    height: 0;
+    margin-left: 3rem;
+}
+.triangulo>div {
+    border-style: solid;
+    border-width: 0.5rem;
+    width: 0;
+    height: 0;
+    position:relative;
+}
+.triangulo.right {
+    border-color: transparent transparent transparent #ffffff;
+}
+.triangulo.right>div {
+    border-color: transparent transparent transparent #ff8259;
+    top: -0.5rem;
+    left: -0.7rem;
+}
+
+/*footer*/
+footer {
+    width: 100%;
+    height: 25rem;
+    background-image: url(../imagenes/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 7rem;
+}
+.footer__titulo {
+    font-family: "fuente1";
+    font-size: 5rem;
+    text-align: center;
+    color: #8f00ff;   
+    text-shadow: 0.1rem 0.4rem 0.2rem #9e9e9e;
+    padding-top: 3rem;
+}
+.footer__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0rem 2rem 0rem;
+}
+.footer__img img {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0rem 2.5rem;
+}
+
