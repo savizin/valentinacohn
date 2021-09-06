@@ -57,10 +57,10 @@ header {
 .active:after {
     position: absolute;
     top: 5.8rem;
-    left: 53.8rem;
+    left: 53.4rem;
     content: '';
     width: 2.5rem;
-    border-bottom: solid 0.8rem #ffffff;
+    border-bottom: solid 0.5rem #ffffff;
     border-radius: 7rem;
     transition: left 250ms ease-in-out, right 250ms ease-in-out;
     opacity: 1;
@@ -80,7 +80,7 @@ header {
     align-items: center;
     width: 20rem;
     height: 4rem;
-    background-color: #deecf3;
+    background-color: #d9e9fa;
     border-radius: 3rem;
     padding: 2rem;
     margin: 2rem;

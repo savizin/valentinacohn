@@ -60,7 +60,7 @@ header {
     left: 75rem;
     content: '';
     width: 2.5rem;
-    border-bottom: solid 0.8rem #ffffff;
+    border-bottom: solid 0.5rem #ffffff;
     border-radius: 7rem;
     transition: left 250ms ease-in-out, right 250ms ease-in-out;
     opacity: 1;
@@ -80,7 +80,7 @@ header {
     align-items: center;
     width: 20rem;
     height: 4rem;
-    background-color: #deecf3;
+    background-color: #d9e9fa;
     border-radius: 3rem;
     padding: 2rem;
     margin: 2rem;
@@ -229,7 +229,7 @@ a:hover {
     width: 16rem;
     height: 4.5rem;
     border-radius: 3rem;
-    background-color: #057bfa;
+    background-color: #8f00ff;
     margin-left: 0.5rem;
     transition: 0.3s;
 }
@@ -263,7 +263,7 @@ a:hover {
     width: 16rem;
     height: 4.5rem;
     border-radius: 3rem;
-    background-color: #8f00ff;
+    background-color: #057bfa;
     margin-left: 0.5rem;
     transition: 0.3s;
 }

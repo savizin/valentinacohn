@@ -56,7 +56,7 @@ body {
     left: 65.6rem;
     content: '';
     width: 2.5rem;
-    border-bottom: solid 0.8rem #f8339e;
+    border-bottom: solid 0.5rem #f8339e;
     border-radius: 7rem;
     transition: left 250ms ease-in-out, right 250ms ease-in-out;
     opacity: 1;

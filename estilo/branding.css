@@ -60,7 +60,7 @@ header {
     left: 76.7rem;
     content: '';
     width: 2.5rem;
-    border-bottom: solid 0.8rem #ffffff;
+    border-bottom: solid 0.5rem #ffffff;
     border-radius: 7rem;
     transition: left 250ms ease-in-out, right 250ms ease-in-out;
     opacity: 1;
@@ -80,7 +80,7 @@ header {
     align-items: center;
     width: 20rem;
     height: 4rem;
-    background-color: #fff0d5;
+    background-color: #ffd9cc;
     border-radius: 3rem;
     padding: 2rem;
     margin: 2rem;
@@ -154,7 +154,7 @@ main {
     font-size: 1.5rem;
     color: #ffffff;
     padding: 1rem;
-    margin-left: 22rem;
+    margin-left: 26rem;
 }
 
 /*section*/
@@ -172,7 +172,7 @@ section {
     margin-left: 2rem;
     margin-bottom: 2rem;
 }
-.imgportfolio {
+.imgbranding {
     width: 65rem;
     height: 50rem;
 }

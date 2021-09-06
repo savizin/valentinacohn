@@ -60,7 +60,7 @@ header {
     left: 76.7rem;
     content: '';
     width: 2.5rem;
-    border-bottom: solid 0.8rem #0f0f0f;
+    border-bottom: solid 0.5rem #0f0f0f;
     border-radius: 7rem;
     transition: left 250ms ease-in-out, right 250ms ease-in-out;
     opacity: 1;
@@ -80,7 +80,7 @@ header {
     align-items: center;
     width: 20rem;
     height: 4rem;
-    background-color: #deecf3;
+    background-color: #d9e9fa;
     border-radius: 3rem;
     padding: 2rem;
     margin: 2rem;
@@ -118,7 +118,6 @@ input {
     border: transparent;
     border-radius: none;
 }
-
 .flechaizq {
     position: absolute;
     top: 8.5rem;
@@ -155,7 +154,7 @@ main {
     font-size: 1.5rem;
     color: #0f0f0f;
     padding: 1rem;
-    margin-left: 24rem;
+    margin-left: 26rem;
 }
 
 /*section*/
