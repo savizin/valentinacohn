@@ -152,7 +152,7 @@ main {
     font-family: "fuente2";
     font-size: 2.3rem;
     color: #ffffff;
-    margin-left: 55rem;
+    margin-left: 48rem;
     margin-right: 3rem;
 }
 .texto {
@@ -173,24 +173,24 @@ main {
     flex-direction: column;
     justify-content: center;
     text-align: start;
-    margin: 12rem 0rem 0rem 6rem;
+    margin: 12rem 0rem 0rem 4rem;
 }
 .subtitulo2 {
     font-family: "fuente1";
     font-size: 7rem;
     color: #057bfa;
-    margin-right: 10rem;
+    margin-right: 6rem;
     margin-bottom: 2rem;
 }
 .texto3 {
     font-family: "fuente2";
     font-size: 2.3rem;
     color: #0f0f0f;
-    margin-right: 26rem;
+    margin-right: 18rem;
 }
 .imgcont2 {
-    width: 60rem;
-    height: 60rem;
+    width: 65rem;
+    height: 65rem;
     margin-right: 1rem;
 }
 .contenedor3 {
@@ -223,7 +223,7 @@ main {
 }
 .imgcont3 {
     position: absolute;
-    top: 142rem;
+    top: 147rem;
     width: 75rem;
     height: 60rem;
     margin: 0rem 5rem;
