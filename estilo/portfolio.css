@@ -345,3 +345,399 @@ footer {
     margin: 0rem 2.5rem;
 }
 
+@media (max-width: 768px) {
+    header {
+        background-image: url(../imagenes/fondoportfolio768.png);
+        background-repeat: no-repeat;
+        background-position: top;
+    }    
+
+    /*barra de navegación*/
+    .titulo {
+        margin: 1rem;
+        margin-right: 1rem;
+    }
+    .navbar-collapse {
+        display: flex;
+    }
+    .navbar {
+        padding: 0.5rem 1.5rem 2rem 1.5rem;
+        margin: 0.1rem 1rem 2rem 1rem;
+    }
+    .navbar-nav {
+        padding-left: 1rem;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .active:after {
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        width: 0rem;
+    }    
+    .navbar-toggler {
+        background-color: #d9e9fa;
+        border: 0.3rem solid #0f0f0f;
+    }
+
+    /*barra de búqueda de la barra de navegación*/
+    .barrabusqueda {
+        margin: 0.5rem;
+    }
+
+    /*main*/
+    main {
+        display: flex;
+        margin-top: -1.5rem;
+    }
+    .imgmainportfolio {
+        width: 55rem;
+        height: 35rem;
+        margin-top: 0rem;
+    }
+    .textos {
+        margin-top: 4rem;
+        margin-right: 3rem;
+    }
+    .subtitulo {
+        font-size: 5rem;
+        margin-left: 3rem;
+        margin-bottom: 1rem;
+    }
+    .aclaracion {
+        font-size: 1.1rem;
+        border-radius: 2rem;
+        padding: 0.5rem;
+        margin-left: 8rem;
+    }
+    
+    /*section*/
+    section {
+        margin: 4rem 2rem;
+    }
+    .subtitulos {
+        font-size: 4rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    .imgportfolio {
+        width: 35rem;
+        height: 25rem;
+    }
+    
+    /*botones*/
+    a {
+        font-size: 1.3rem;
+    }
+    a:hover {
+        font-size: 1.5rem;
+    }
+    .boton1 {
+        position: absolute;
+        top: 73rem;
+        left: 21rem;
+        width: 12rem;
+        height: 3rem;
+        border-radius: 2.5rem;
+    }
+    .boton1:hover {
+        width: 13rem;
+    }
+    .boton2 {
+        position: absolute;
+        top: 104.2rem;
+        left: 57.3rem;
+        width: 12rem;
+        height: 3rem;
+        border-radius: 2.5rem;
+    }
+    .boton2:hover {
+        width: 13rem;
+    }
+    .boton3 {
+        position: absolute;
+        top: 104.2rem;
+        left: 21rem;
+        width: 12rem;
+        height: 3rem;
+        border-radius: 2.5rem;
+    }
+    .boton3:hover {
+        width: 13rem;
+    }
+    .boton4 {
+        position: absolute;
+        top: 73rem;
+        left: 57.3rem;
+        width: 12rem;
+        height: 3rem;
+        border-radius: 2.5rem;
+    }
+    .boton4:hover {
+        width: 13rem;
+    }
+    .triangulo {
+        border-style: solid;
+        border-radius: 3rem;
+        border-width: 0.7rem;
+        width: 0;
+        height: 0;
+        margin-left: 3rem;
+    }
+    .triangulo>div {
+        border-style: solid;
+        border-width: 0.5rem;
+        width: 0;
+        height: 0;
+        position:relative;
+    }
+    .triangulo.right1 {
+        border-color: transparent transparent transparent #ffffff;
+    }
+    .triangulo.right1>div {
+        border-color: transparent transparent transparent #ff8259;
+        top: -0.5rem;
+        left: -0.7rem;
+    }
+    .triangulo.right2 {
+        border-color: transparent transparent transparent #ffffff;
+    }
+    .triangulo.right2>div {
+        border-color: transparent transparent transparent #057bfa;
+        top: -0.5rem;
+        left: -0.7rem;
+    }.triangulo.right3 {
+        border-color: transparent transparent transparent #ffffff;
+    }
+    .triangulo.right3>div {
+        border-color: transparent transparent transparent #f8339e;
+        top: -0.5rem;
+        left: -0.7rem;
+    }.triangulo.right4 {
+        border-color: transparent transparent transparent #ffffff;
+    }
+    .triangulo.right4>div {
+        border-color: transparent transparent transparent #8f00ff;
+        top: -0.5rem;
+        left: -0.7rem;
+    }
+    
+    /*footer*/
+    footer {
+        margin-top: 0rem;
+    }
+    .footer__titulo {
+        font-size: 4rem;
+        padding-top: 5rem;
+    }
+    .footer__img img {
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+@media (max-width: 320px) {
+    /*barra de navegación*/
+    .titulo {
+        font-size: 3rem;
+        margin: 0.3rem;
+    }
+    .navbar {
+        padding: 0.5rem 1rem;
+        padding-bottom: 0rem;
+        margin: 0.1rem 0.5rem;
+        margin-bottom: 0rem;
+    }
+    .navbar-collapse {
+        display: flex;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 1.5rem;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        font-size: 1.5rem;
+    }
+    .navbar-nav {
+        padding-left: 0rem;
+        -ms-flex-direction: row;
+        flex-direction: column;
+    }
+
+    /*NO se ve la barra de búqueda de la barra de navegación*/
+    .barrabusqueda {
+        background-color: transparent;
+    }
+    .barrabusqueda img {
+        width: 0rem;
+        height: 0rem;
+    }
+    .borde {
+        border-left: transparent;
+    }
+    input {
+        color: transparent;
+    } 
+    ::placeholder {
+        color: transparent;
+    }
+    
+    header {
+        height: 26rem;
+    }
+
+    /*main*/
+    main {
+        display: flex;
+        margin-top: 0rem;
+    }
+    .imgmainportfolio {
+        width: 0rem;
+        height: 0rem;
+        margin-top: 0rem;
+    }
+    .textos {
+        text-align: center;
+        margin: 4rem 1rem 1rem 1rem;
+    }
+    .subtitulo {
+        font-size: 5rem;
+        margin: 2rem 1rem 0.5rem 1rem;
+    }
+    .aclaracion {
+        font-size: 1.5rem;
+        border-radius: 2rem;
+        padding: 1rem;
+        margin: 1rem 3rem;
+    }
+    
+    /*section*/
+    section {
+        display: flex;
+        flex-direction: column;
+        grid-column: 0;
+        grid-row: 0;
+        gap: 0%;
+        margin: 3rem 1.5rem;
+    }
+    .subtitulos {
+        font-size: 3rem;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+    }
+    .imgportfolio {
+        width: 30rem;
+        height: 20rem;
+    }
+    
+    /*botones*/
+    a {
+        font-size: 1.3rem;
+    }
+    a:hover {
+        font-size: 1.5rem;
+    }
+    .boton1 {
+        position: absolute;
+        top: 48rem;
+        left: 16.5rem;
+        width: 12rem;
+        height: 2.5rem;
+        border-radius: 2rem;
+    }
+    .boton1:hover {
+        width: 12rem;
+    }
+    .boton2 {
+        position: absolute;
+        top: 121.5rem;
+        left: 16.5rem;
+        width: 12rem;
+        height: 2.5rem;
+        border-radius: 2rem;
+    }
+    .boton2:hover {
+        width: 12rem;
+    }
+    .boton3 {
+        position: absolute;
+        top: 97rem;
+        left: 16.5rem;
+        width: 12rem;
+        height: 2.5rem;
+        border-radius: 2.5rem;
+    }
+    .boton3:hover {
+        width: 13rem;
+    }
+    .boton4 {
+        position: absolute;
+        top: 72.5rem;
+        left: 16.5rem;
+        width: 12rem;
+        height: 2.5rem;
+        border-radius: 2.5rem;
+    }
+    .boton4:hover {
+        width: 13rem;
+    }
+    .triangulo {
+        border-style: solid;
+        border-radius: 3rem;
+        border-width: 0.7rem;
+        width: 0;
+        height: 0;
+        margin-left: 3rem;
+    }
+    .triangulo>div {
+        border-style: solid;
+        border-width: 0.5rem;
+        width: 0;
+        height: 0;
+        position:relative;
+    }
+    .triangulo.right1 {
+        border-color: transparent transparent transparent #ffffff;
+    }
+    .triangulo.right1>div {
+        border-color: transparent transparent transparent #ff8259;
+        top: -0.5rem;
+        left: -0.7rem;
+    }
+    .triangulo.right2 {
+        border-color: transparent transparent transparent #ffffff;
+    }
+    .triangulo.right2>div {
+        border-color: transparent transparent transparent #057bfa;
+        top: -0.5rem;
+        left: -0.7rem;
+    }.triangulo.right3 {
+        border-color: transparent transparent transparent #ffffff;
+    }
+    .triangulo.right3>div {
+        border-color: transparent transparent transparent #f8339e;
+        top: -0.5rem;
+        left: -0.7rem;
+    }.triangulo.right4 {
+        border-color: transparent transparent transparent #ffffff;
+    }
+    .triangulo.right4>div {
+        border-color: transparent transparent transparent #8f00ff;
+        top: -0.5rem;
+        left: -0.7rem;
+    }  
+
+    /*footer*/
+    footer {
+        height: 18rem;
+        margin-top: 0rem;
+    }
+    .footer__titulo {
+        font-size: 3rem;
+        padding-top: 3rem;
+    }
+    .footer__img img {
+        width: 2rem;
+        height: 2rem;
+        margin: 0rem 2rem;
+    }
+}

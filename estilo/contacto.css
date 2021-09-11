@@ -158,6 +158,14 @@ label {
     padding: 0.5rem;
     margin-bottom: 1.5rem;
 }
+.seccion2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    font-family: "fuente2";
+    margin: 0.5rem 1rem;
+}
 .pregunta {
     font-family: "fuente2";
     font-size: 1.5rem;
@@ -207,7 +215,7 @@ label {
     border: none;
     border-radius: 2rem;
 }
-.seccion2 {
+.seccion3 {
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -215,11 +223,11 @@ label {
     font-family: "fuente2";
     margin: 0.5rem 1rem;
 }
-.seccion2__titulo {
+.seccion3__titulo {
     font-size: 1.5rem;
     margin: 1rem 0rem;
 }
-.seccion2__area {
+.seccion3__area {
     width: 77rem;
     height: 25rem;
     font-size: 1.5rem;
@@ -230,6 +238,27 @@ label {
     border-image: linear-gradient(to right, #8f00ff 0%, #f8339e 100%);
     border-image-slice: 1;
     padding: 1.2rem 0rem 0rem 1.3rem;
+}
+.seccion3__boton {
+    font-family: "fuente2";
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+    background-color: #8f00ff;
+    box-shadow: 0.5rem 0.4rem 1rem #9e9e9e;
+    -moz-box-shadow: 0.5rem 0.4rem 1rem #9e9e9e;
+    -webkit-box-shadow: 0.5rem 0.4rem 1rem #9e9e9e;
+    border-color: transparent;
+    border-radius: 1rem;
+    width: 18rem;
+    height: 5rem;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 59rem;
+    transition: 0.3s;
+}
+.seccion3__boton:hover {
+    font-size: 1.8rem;
 }
 
 /*seccion de contacto*/
@@ -269,27 +298,6 @@ label {
     height: 3.5rem;
     margin: 2rem 5rem;
 }
-.contacto__boton {
-    font-family: "fuente2";
-    font-size: 1.5rem;
-    color: #ffffff;
-    text-align: center;
-    background-color: #8f00ff;
-    box-shadow: 0.5rem 0.4rem 1rem #9e9e9e;
-    -moz-box-shadow: 0.5rem 0.4rem 1rem #9e9e9e;
-    -webkit-box-shadow: 0.5rem 0.4rem 1rem #9e9e9e;
-    border-color: transparent;
-    border-radius: 1rem;
-    width: 18rem;
-    height: 5rem;
-    padding: 1rem;
-    margin-top: 1.5rem;
-    margin-left: 60rem;
-    transition: 0.3s;
-}
-.contacto__boton:hover {
-    font-size: 1.8rem;
-}
 
 /*footer*/
 footer {
@@ -320,3 +328,297 @@ footer {
     margin: 0rem 2.5rem;
 }
 
+@media (max-width: 768px) {
+    /*barra de navegación*/
+    .titulo {
+        margin: 1rem;
+        margin-right: 1rem;
+    }
+    .navbar-collapse {
+        display: flex;
+    }
+    .navbar {
+        padding: 0.5rem 1.5rem 2rem 1.5rem;
+        margin: 0.1rem 1rem 2rem 1rem;
+    }
+    .navbar-nav {
+        padding-left: 1rem;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .active:after {
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        width: 0rem;
+    }    
+    .navbar-toggler {
+        background-color: #ddb0ff;;
+        border: 0.3rem solid #0f0f0f;
+    }
+
+    /*barra de búqueda de la barra de navegación*/
+    .barrabusqueda {
+        margin: 0.5rem;
+    }
+
+    /*formulario contacto*/
+    form {
+        padding: 3rem 0rem 5rem 1.5rem;
+        margin-top: -1rem;
+    }
+    .seccion {
+        padding: 0.5rem 0rem;
+        margin-bottom: 0rem;
+        width: 42rem;
+    }
+    label {
+        font-size: 1.5rem;
+        margin: 0.3rem 0rem;
+    }
+    .completar {
+        font-size: 1.3rem;
+        width: 20rem;
+        height: 3rem;
+        padding: 0.3rem;
+        margin-bottom: 0.3rem;
+    }
+    .seccion2 {
+        margin: 0rem 1rem;
+    }
+    .pregunta {
+        font-size: 1.5rem;
+        margin-left: 0rem;
+    }
+    .botones {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0.5rem;
+    }
+    ul {
+        margin-bottom: 0rem;
+    }
+    .seccion3 {
+        margin: 0rem 1rem;
+    }
+    .seccion3__titulo {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .seccion3__area {
+        width: 38rem;
+        height: 15rem;
+        font-size: 1.5rem;
+        padding: 1.2rem 0rem 0rem 1.3rem;
+    }
+    .seccion3__boton {
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        width: 16rem;
+        height: 5rem;
+        padding: 0.5rem;
+        margin-top: 1rem;
+        margin-left: 22rem;
+    }
+    .seccion3__boton:hover {
+        font-size: 1.8rem;
+    }
+
+    /*seccion de contacto*/
+    .contacto {
+        position: absolute;
+        top: 13rem;
+        right: 0;
+        width: 32rem;
+        height: 56.5rem;
+        margin-top: 1rem;
+    }
+    .contacto__titulo {
+        font-size: 4rem;
+        margin: 5rem 1rem 3rem 2rem;
+    }
+    .contacto__texto {
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        margin: 2.3rem 1rem;
+    }
+    .contacto__img {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin: 1rem 2rem;
+    }
+
+    /*footer*/
+    footer {
+        margin-top: 0rem;
+    }
+    .footer__titulo {
+        font-size: 4rem;
+        padding-top: 5rem;
+    }
+    .footer__img img {
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../imagenes/fondocontacto320.png);
+        background-repeat: repeat;
+    }
+
+    /*barra de navegación*/
+    .titulo {
+        font-size: 3rem;
+        margin: 0.3rem;
+    }
+    .navbar {
+        padding: 0.5rem 1rem;
+        padding-bottom: 0rem;
+        margin: 0.1rem 0.5rem;
+        margin-bottom: 0rem;
+    }
+    .navbar-collapse {
+        display: flex;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 1.5rem;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        font-size: 1.5rem;
+    }
+    .navbar-nav {
+        padding-left: 0rem;
+        -ms-flex-direction: row;
+        flex-direction: column;
+    }
+
+    /*NO se ve la barra de búqueda de la barra de navegación*/
+    .barrabusqueda {
+        background: transparent;
+        background-color: transparent;
+    }
+    .barrabusqueda img {
+        width: 0rem;
+        height: 0rem;
+    }
+    .borde {
+        border-left: transparent;
+    }
+    input {
+        color: transparent;
+    } 
+    ::placeholder {
+        color: transparent;
+    }
+
+   /*formulario contacto*/
+    form {
+        display: flex;
+        flex-direction: column;       
+        padding: 3rem 0rem 3rem 1.5rem;
+        margin-top: -1rem;
+    }
+    .seccion {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30rem;
+        padding: 1rem;
+        margin-bottom: 0rem;
+      
+    }
+    label {
+        font-size: 1.5rem;
+        margin: 0.3rem 0rem;
+    }
+    .completar {
+        font-size: 1.3rem;
+        width: 20rem;
+        height: 3rem;
+        padding: 0.3rem;
+        margin-bottom: 0.3rem;
+    }
+    .seccion2 {
+        margin: 1rem;
+    }
+    .pregunta {
+        font-size: 1.5rem;
+        margin-left: 0rem;
+    }
+    .botones {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0.5rem;
+    }
+    ul {
+        margin-bottom: 0rem;
+    }
+    .seccion3 {
+        margin: 0rem 1rem;
+    }
+    .seccion3__titulo {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .seccion3__area {
+        width: 26rem;
+        height: 12rem;
+        font-size: 1rem;
+        padding: 1.2rem 0rem 0rem 1.3rem;
+    }
+    .seccion3__boton {
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        width: 14rem;
+        height: 4rem;
+        padding: 0.5em;
+        margin: 1rem 0rem 3rem 6.5rem;
+    }
+    .seccion3__boton:hover {
+        font-size: 1.8rem;
+    }
+
+    /*seccion de contacto*/
+    .contacto {
+        position: static;
+        width: 28rem;
+        height: 42rem;
+        margin: 0rem 0rem 4rem 4rem;
+    }
+    .contacto__titulo {
+        font-size: 3rem;
+        margin: 5rem 1rem 3rem 2rem;
+    }
+    .contacto__texto {
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        margin: 1rem 1rem;
+    }
+    .contacto__img {
+        width: 2rem;
+        height: 2rem;
+        margin: 0.5rem 2rem;
+    }
+    
+    /*footer*/
+    footer {
+        height: 18rem;
+        margin-top: 0rem;
+    }
+    .footer__titulo {
+        font-size: 3rem;
+        padding-top: 3rem;
+    }
+    .footer__img img {
+        width: 2rem;
+        height: 2rem;
+        margin: 0rem 2rem;
+    }
+}

@@ -258,3 +258,278 @@ footer {
     margin: 0rem 2.5rem;
 }
 
+@media (max-width: 768px) {
+    /*barra de navegación*/
+    .titulo {
+        margin: 1rem;
+        margin-right: 1rem;
+    }
+    .navbar-collapse {
+        display: flex;
+    }
+    .navbar {
+        padding: 0.5rem 1.5rem 2rem 1.5rem;
+        margin: 0.1rem 1rem 4rem 1rem;
+    }
+    .navbar-nav {
+        padding-left: 1rem;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .active:after {
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        width: 0rem;
+    }    
+    .navbar-toggler {
+        background: rgb(143,0,255);
+        background: linear-gradient(90deg, rgba(143,0,255,0.2497373949579832) 30%, rgba(5,123,250,0.3337710084033614) 100%);
+        border: 0.3rem solid #0f0f0f;
+    }
+
+    /*barra de búqueda de la barra de navegación*/
+    .barrabusqueda {
+        margin: 0.5rem;
+    }
+
+    /*main*/
+    .imgmainsobremi {
+        position: absolute;
+        top: 12rem;
+        left: 0.2rem;
+        width: 45rem;
+        height: 51rem;
+    }
+    .contenedor {
+        height: 31.5rem;
+        margin: 6rem 2rem 0rem 10rem;
+    }
+    .subtitulo {
+        font-size: 3rem;
+        margin: 0rem 1rem 1rem 0rem;
+    }
+    .textos {
+        font-size: 1.5rem;
+        margin-left: 32rem;
+        margin-right: 1rem;
+    }
+    .texto {
+        margin-bottom: 1rem;
+    }
+
+    /*section*/
+    .contenedor2 {
+        display: flex;
+        padding: 6rem 1rem;
+        margin: 4rem 2rem;
+    }
+    .textos2 {
+        margin: 6rem 0rem 0rem 1rem;
+    }
+    .subtitulo2 {
+        font-size: 4rem;
+        margin-right: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .texto3 {
+        font-size: 1.5rem;
+        margin-right: 2rem;
+    }
+    .imgcont2 {
+        width: 40rem;
+        height: 40rem;
+        margin-right: 0rem;
+    }
+    .contenedor3 {
+        display: flex;
+        width: 100%;
+        height: 25rem;
+        margin-top: 1rem;
+    }
+    .textos3 {
+        padding: 2rem 0rem;
+        margin-right: 3rem;
+    }
+    .subtitulo3 {
+        font-size: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+        margin-left: 45rem;
+    }
+    .texto4 {
+        font-size: 1.3rem;
+        margin-left: 42rem;
+    }
+    .imgcont3 {
+        position: absolute;
+        top: 101.9rem;
+        width: 42rem;
+        height: 34rem;
+        margin: 0rem 0.5rem;
+    }
+
+    /*footer*/
+    footer {
+        margin-top: 0rem;
+    }
+    .footer__titulo {
+        font-size: 4rem;
+        padding-top: 5rem;
+    }
+    .footer__img img {
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+@media (max-width: 320px) {
+    /*barra de navegación*/
+    .titulo {
+        font-size: 3rem;
+        margin: 0.3rem;
+    }
+    .navbar {
+        padding: 0.5rem 1rem;
+        padding-bottom: 0rem;
+        margin: 0.1rem 0.5rem;
+        margin-bottom: 0rem;
+    }
+    .navbar-collapse {
+        display: flex;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 1.5rem;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+        font-size: 1.5rem;
+    }
+    .navbar-nav {
+        padding-left: 0rem;
+        -ms-flex-direction: row;
+        flex-direction: column;
+    }
+
+    /*NO se ve la barra de búqueda de la barra de navegación*/
+    .barrabusqueda {
+        background: transparent;
+        background-color: transparent;
+    }
+    .barrabusqueda img {
+        width: 0rem;
+        height: 0rem;
+    }
+    .borde {
+        border-left: transparent;
+    }
+    input {
+        color: transparent;
+    } 
+    ::placeholder {
+        color: transparent;
+    }
+    
+    header {
+        height: 6rem;
+    }
+
+    /*main*/
+    main {
+        flex-direction: column;
+    }
+    .imgmainsobremi {
+        position: absolute;
+        top: 4rem;
+        width: 25rem;
+        height: 27rem;
+        margin: 0.5rem;
+        margin-left: 6rem;
+    }
+    .contenedor {
+        text-align: center;
+        height: 38rem;
+        padding: 2rem 0.5rem;
+        margin: 19rem 2rem 0rem 2rem;
+    }
+    .subtitulo {
+        font-size: 2.8rem;
+        margin: 3rem 0.5rem 1rem 0.5rem;
+    }
+    .textos {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .texto {
+        margin-bottom: 1rem;
+    }
+
+    /*section*/
+    .contenedor2 {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 1rem;
+        margin: 1rem;
+    }
+    .textos2 {
+        text-align: center;
+        margin: 1rem;
+    }
+    .subtitulo2 {
+        font-size: 3rem;
+        margin-right: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .texto3 {
+        font-size: 1.5rem;
+        margin-right: 2rem;
+    }
+    .imgcont2 {
+        width: 28rem;
+        height: 28rem;
+        margin-right: 0rem;
+    }
+    .contenedor3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 45rem;
+        margin-top: 0rem;
+    }
+    .textos3 {
+        padding: 1rem 0rem;
+        margin: 0rem 3rem;
+    }
+    .subtitulo3 {
+        font-size: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        margin-left: 0rem;
+    }
+    .texto4 {
+        font-size: 1.3rem;
+        margin-left: 0rem;
+    }
+    .imgcont3 {
+        position: absolute;
+        top: 146.2rem;
+        width: 30rem;
+        height: 22rem;
+        margin: 0rem 1rem;
+    }
+
+    /*footer*/
+    footer {
+        height: 18rem;
+        margin-top: 0rem;
+    }
+    .footer__titulo {
+        font-size: 3rem;
+        padding-top: 3rem;
+    }
+    .footer__img img {
+        width: 2rem;
+        height: 2rem;
+        margin: 0rem 2rem;
+    }
+}
