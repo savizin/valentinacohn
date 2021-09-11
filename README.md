@@ -1,5 +1,5 @@
 # Valentina Cohn 
 
-### Sitio web que muestra el curriculum de Valentina Cohn, diseñadora.
+### Portfolio diseñado con Visual Estudio Code, utilizando lenguajes html y css.
 
 Sitio en Netlify: https://valentinacohn.netlify.app/
